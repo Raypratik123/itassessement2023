@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pratik - Developer Portfolio</title>
+    <link rel="preconnect" href="https:fonts.googleapis.com">
+    <link rel="preconnect" href="https:fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            background-color: rgb(4, 4, 107);
+            color: white;
+            font-family: 'Poppins', sans-serif;
+        }
+        nav{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 80px;
+            background-color: rgb(23, 23, 73);
+        }
+        nav ul{
+            display: flex;
+            justify-content: center;
+        }
+        nav ul li{
+            list-style: none;
+            margin: 0 23px;
+        }
+
+        nav ul li a{
+            text-decoration: none;
+            color: white;
+        }
+        nav ul li a:hover{
+            color: rgb(157, 157, 238);
+            font-size: 1.01rem;
+        }
+        main hr{
+            border: 0;
+            background: #9c97f1;
+            height: 1.2px;
+            margin: 60px 84px;
+        }
+        .left{
+            font-size: 1.5rem;
+        }
+        .firstSection{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin: 130px 0;
+
+        }
+        .firstSection > div{
+            width: 30%;
+
+        }
+        .leftSection{
+            font-size: 3rem;
+        }
+        .rightSection img{
+            width: 80%;
+        }
+        .purple{
+            color: rgb(172, 106, 234);
+        }
+        #element{
+            color: rgb(172, 106, 234);
+        }
+        .secondSection{
+            max-width: 80vw;
+            margin: auto;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="left">Pratik's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/">About</a></li>
+                    <li><a href="/">Services</a></li>
+                    <li><a href="/">Projects</a></li>
+                    <li><a href="/">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="firstSection">
+            <div class="leftSection">
+                Hi, My name is <span class="purple">Pratik</span>
+
+                <div>and I am a passionate</div>
+                <!-- <div>CSIT Student</div> -->
+                <span id="element"></span>
+            </div>
+            <div class="rightSection">
+                <img src="bg.png" alt="bg">
+            </div>
+        </section>
+<hr>
+        <section class="secondSection">
+            <!-- <h1>Past Experience</h1> -->
+            <section id="portfolio">
+                <h2 align="center">Portfolio</h2>
+                <div class="project">
+            
+                  <h3 align="center">Week3 Task 1,2,3,4</h3>
+                  <p align="center">Description: Here I have provided github link for this task because the task was about git I need to </p>
+                  <p align="center">create 3 file by using gitbash terminal..... then pushing it in github according to task 1,2,3, and 4 of Week 3</p>
+                  <p align="center">Here you can easily find my github link </p>
+                  <a href="https://github.com/Raypratik123/TBCproject">Github link</a>
+            
+                </div>
+            
+                <div class="project">
+                  
+                  <h3 align="center">Week 4 Task</h3>
+                  <p align="center">Description: This is Week 4 task  which I have done.</p>
+                  <p align="center">I have provided the link of moqup and showing the task 1 and task 2 </p>
+                  <a href=https://app.moqups.com/T5kCeIoqt1ehk2es05p35z2W9ZtpWG0j/view/page/ad64222d5>Moqup link</a>
+                  <a href=https://app.moqups.com/T5kCeIoqt1ehk2es05p35z2W9ZtpWG0j/view/page/a7b42de62>Moqup link of college</a>
+                </div>
+                <div class="project">
+                  
+                  <h3 align="center">All Task</h3>
+                  <p align="center">Description: This is the task  which I have done.</p>
+                  <p align="center">I have provided the link of task and showing all the task in the Github </p>
+                  <a href="https://github.com/Raypratik123/AllthetasksofIT">Github link</a>
+                  <!-- <a href="college page - Page · Moqups.html">mockup</a> -->
+                </div>
+                <!-- <div class="project">
+                  
+                  <h3 align="center">Week 6 Task</h3>
+                  <p align="center">Description: This is week 4 task  which i have done.</p>
+                  <p align="center">i provide link of figma to show the task 1 </p>
+                  <a href="https://www.figma.com/file/qwejutZMZsO3U43F9b45wA/tab-design?type=design&node-id=0-1&mode=design&t=kjzlzeygTMaKWvhV-0">Figma link</a>
+                  <a href="college page - Page · Moqups.html">mockup</a>
+                </div> -->
+              </section>
+        </section>
+
+    </main>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Cybersecurity Student', 'Coder', 'Web Designer'],
+            typeSpeed: 50,
+        });
+    </script>
+
+<footer>
+    <div class="container">
+        <p>&copy; 2023 Pratik Ray . All rights reserved.</p>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="resume.html">Portfolio</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </div>
+</footer>
+
+</body>
+
+</html>
